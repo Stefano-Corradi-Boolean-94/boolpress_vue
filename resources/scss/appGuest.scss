@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.container-inner{
+    background-color: white;
+    min-height: 400px;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+    margin: 20px 0;
+    width: 100%;
+}
+
+.badge{
+    display: inline-block;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.badge-category{
+    background-color: aquamarine;
+}
+
+.badge-tag{
+    background-color:cadetblue;
+}
